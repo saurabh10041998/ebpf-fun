@@ -1,6 +1,4 @@
 #!/bin/bash
-set -e
-
 function rotate() {
   fname="$1"
   if [ -z "$fname" ]; then
