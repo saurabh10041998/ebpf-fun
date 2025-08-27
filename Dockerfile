@@ -7,6 +7,6 @@ RUN : \
         bpfcc-tools \
         bpftrace \
         clang \
-        llvm
+        llvm \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
