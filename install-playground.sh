@@ -11,5 +11,5 @@ docker container run -it --rm \
   -w /workspace \
   -v /lib/modules:/lib/modules \
   -v /usr/src:/usr/src \
-  ebpf-playground:1.0
+  ebpf-playground:0.2
 

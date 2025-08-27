@@ -11,5 +11,5 @@ function rotate() {
 function build_img() {
   [[ ! -f Dockerfile ]] && exit 1
 
-  docker build -t ebpf-playground:0.1 .
+  docker build -t ebpf-playground:0.2 .
 }
